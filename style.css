@@ -1,28 +1,26 @@
 body{
-    font-size: 17px;
+  font: 100%;
+  background-color: antiquewhite;
+  padding: 2px;
+  margin: -1px;
+}
 
-    color: brown;
-     background-color: #99c2ff;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
 
-  
-  /* Header **/
-  header{
-   background-color:#b3ecff ;height:150px;width: 1450px;
-   color:#6666cc;
-   padding: 20px 70px 5px 1px;
-   margin: -7px;
-   border-bottom-style: solid;
-   border-color: gray;
-   text-decoration-line: none;
-  }
+/* Header **/
+header{
+    padding-top: 10px;
+    min-height: 100px;
+   background-color: #99d6ff;
+   color:#ff1a1a;
+    border-bottom-style: inset;
+}
   
   footer{
     text-align: center;
     text-decoration-line: none;
     background-color: #b3ffe0;
-    ;
+    font-weight: bold;
+    
     color: #ff1a8c;
     padding: 20px 70px 5px 1px;
     margin: -7px; 
