@@ -15,6 +15,45 @@ header{
   border-bottom:#e8491d 3px solid;
 }
 
+header a{
+  color:greenyellow ;
+  text-decoration:inherit;
+  text-transform:uppercase ;
+  font-size:
+}
+
+header li{
+  float:left;
+  display: inline-block;
+  padding: 15px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin: 5px;
+  font-size: 35px;
+}
+
+header nav{
+  float:left;
+  margin-top:18px;
+}
+
+header .highlight, header .current a{
+  color:green;
+  font-weight: 20px;
+  
+}
+
+header a:hover{
+  color:#ffffa1;
+  font-weight:20px;
+}
+
+
 footer{
   padding:20px;
   margin-top:20px;
@@ -22,4 +61,11 @@ footer{
   background-color:#e8491d;
   text-align: center;
 }
+
+
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width: 200px;
+    margin-bottom:10px;
+  }
 
