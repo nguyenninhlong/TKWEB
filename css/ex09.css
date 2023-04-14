@@ -1,0 +1,166 @@
+body{
+font: 15px/1.5 Arial, Helvetica,sans-serif;
+padding:0;
+margin:0;
+background-color:#e0e0eb;
+
+}
+
+/* Global */
+.container{
+margin-left: 90px;
+
+}
+
+ul{
+margin-top: -10px;
+margin-right: 100px;
+
+}
+
+.button_1{
+height: 35px;
+width: 90px;
+background-color: #193549;
+color: #ffffff;
+
+}
+
+.dark{
+margin-top:10px;
+margin-bottom:10px;
+background:#ffccff;
+color:#ffffff;
+padding: 10px;
+
+}
+
+/* Header **/
+header{
+background:#35424a;
+color:#ffffff;
+padding-top:30px;
+min-height:70px;
+border-bottom:#e8491d 3px solid;
+
+}
+
+header a{
+color:greenyellow ;
+text-decoration:inherit;
+text-transform:uppercase ;
+font-size:18px;
+
+}
+
+header li{
+float:left;
+display: inline-block;
+padding: 15px;
+
+}
+
+header #branding{
+float:left;
+
+}
+
+header #branding h1{
+margin: 5px;
+font-size: 35px
+
+}
+
+header nav{
+float:right;
+margin-top:18px;
+
+}
+
+header .highlight, header .current a{
+color:#ff751a;
+font-weight: 20px;
+}
+
+header a:hover{
+color:#e8491d;
+font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+background: url("../img/showcase.jpg") no-repeat 0 -400px;
+color:#ffffff;
+padding-top:100px;
+min-height:300px;
+text-align: center;
+}
+
+#showcase h1{
+font-size: 40px;
+margin-bottom:15px;
+margin-top:100px;
+}
+
+#showcase p{
+text-align: center;
+font-size: x-large;
+}
+
+/* Newsletter */
+#newsletter{
+padding-top: 50px;
+min-height: 40px;
+background-color: #a15587;
+}
+
+#newsletter h1{
+margin-top: -20px;
+color: rgb(255, 255, 255);
+float:left;
+}
+
+#newsletter form {
+float: right;
+    margin-top: -25px;
+    margin-right: 90px;
+}
+
+#newsletter input[type="email"]{
+height: 30px;
+width: 250px;
+}
+#newsletter button{
+background-color:#ff531a ;
+}
+
+/* Boxes */
+#boxes{
+
+margin-top: 40px;
+}
+
+#boxes .box{
+display: inline-block;
+height: 100px;
+width: 400px;
+text-align: center;
+
+}
+
+#boxes .box img{
+width: 100px;
+text-align: center;
+
+}
+
+footer{
+background-color:#b3ffe0;
+color:#ff531a;
+text-align:center;
+padding:30px;
+margin-top:20px;
+font-weight: bold;
+border-top: #e8491d 3px solid;
+}
+
