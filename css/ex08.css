@@ -91,7 +91,7 @@ header a:hover{
 
 /* Showcase */
 #showcase{
-    background-image: url("http://trannguyennn.github.io/Ma nguon cac bai tap/Ma nguon cac bai tap/EX06/img/showcase.jpg");
+    background: url("../img/showcase.jpg") no-repeat 0 -400px;
     color:#ffffff;
     padding-top:100px;
     min-height:300px;
@@ -143,7 +143,7 @@ header a:hover{
 
 #boxes .box{
     display: inline-block;
-    height: 400px;
+    height: 100px;
     width: 400px;
 
 }
@@ -161,5 +161,6 @@ footer{
     padding:30px;
     margin-top:20px;
     font-weight: bold;
+    border-top: #e8491d 3px solid;
 }
 
